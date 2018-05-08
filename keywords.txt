@@ -1,0 +1,16 @@
+#######################################
+# Syntax Coloring Map for SimpleThermistor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SimpleThermistor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getTempC	KEYWORD2
+getTempF	KEYWORD2
