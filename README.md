@@ -15,3 +15,19 @@ A0 -----
 GND ----
 
 ````
+
+# Installation
+
+1. From this page on GitHub: Clone or download -> Download ZIP
+
+2. Then from Arduino IDE "Sketch"->"Include Library"->"Add Library from ZIP"
+
+3. Navigate to the ZIP you downloaded.
+
+4. File->Examples->SimpleThermistor->TempC
+
+You'll need to find out the resistance of your Thermistor at 25C and its value of Beta.
+
+I have'nt tested it on 3.3V Arduinos, but its should work fine, because the voltage divider scales to Vin.
+
+Note 12 bit ADC assumed.
