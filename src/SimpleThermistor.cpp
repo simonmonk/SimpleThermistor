@@ -17,8 +17,8 @@ GND ----
 Simon Monk 2018
 */
 
-#include "SimpleThermistor.h"
-#include "Arduino.h"
+#include <SimpleThermistor.h>
+#include <Arduino.h>
 
 SimpleThermistor::SimpleThermistor(int pin, float R25, float Beta, float R2)
 {
